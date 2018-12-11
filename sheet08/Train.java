@@ -2,20 +2,20 @@
 
 public class Train{
 	
-	private int baureihe;
+	private String baureihe;
 	private boolean elektrisch;
 	private int ps;
 	private int maxSpeed;
 	private Waggon nachfolger;
 	
 	public Train() {
-		baureihe = 412;
+		baureihe = "412";
 		elektrisch = true;
 		ps = 13500;
 		maxSpeed = 250;
 	}
 	
-	public Train(int baureihe, boolean elektrisch, int ps, int maxSpeed, Waggon nachfolger) {
+	public Train(String baureihe, boolean elektrisch, int ps, int maxSpeed, Waggon nachfolger) {
 		this.baureihe = baureihe;
 		this.elektrisch = elektrisch;
 		this.ps = ps;
