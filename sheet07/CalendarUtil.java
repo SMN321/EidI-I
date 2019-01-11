@@ -1,4 +1,4 @@
-//Wilhelmstaetter, Simon
+
 
 public class CalendarUtil{
 
